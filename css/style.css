@@ -1,10 +1,96 @@
+@font-face {
+    font-family: fontbold;
+    src: url(../assets/fonts/static/WorkSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: fontregular;
+    src: url(../assets/fonts/static/WorkSans-Regular.ttf);
+}
+
 body {
     margin: 0;
+    background-image: url(../assets/images/background.png);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-color: hsl(275, 100%, 97%);
 }
 
 .description {
     display: none;
+    color: hsl(292, 16%, 49%);
+    font-family: fontregular;
+    line-height: 2.5vh;
+    font-size: 1.5vh;
+    width: 500px;
+    margin: 1vh;
 }
 
-.design { ada
+#design {
+   background-color: white; 
+   width: 600px;
+   height: 50vh;
+   border-radius: 25px;
+   overflow: auto;
+   padding: 3vh;
+   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.229);
+   margin: 20vh auto;
+
+}
+
+button {
+    background-color: white;
+    font-size: 2vh;
+    margin: 1.8vh auto;
+    border: 0;
+    font-weight: 700;
+    width: 590px;
+    text-align: left;
+    font-family: fontbold;
+}
+
+header {
+    color: rgb(21, 21, 21);
+    font-weight: 700;
+    font-size: 6vh;
+    margin: 1.5vh;
+    font-family: fontbold;
+}
+
+header img {
+    margin-right: 3vh;
+
+}
+
+.background img {
+    width: 100%;
+}
+
+button img {
+    float: right;
+}
+
+button:hover {
+    color: hsl(292, 63%, 48%);
+    cursor: pointer;
+}
+
+.attribution {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    font-family: fontregular;
+}
+
+#design::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+#design::-webkit-scrollbar-thumb {
+    background: #ffffff; 
+}
+#design::-webkit-scrollbar-thumb:hover {
+    background: #ffffff; 
 }
