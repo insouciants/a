@@ -1,6 +1,6 @@
-# Frontend Mentor - Mortgage repayment calculator solution
+# Frontend Mentor - FAQ accordion solution
 
-This is a solution to the [Mortgage repayment calculator challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/mortgage-repayment-calculator-Galx1LXK73). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -24,9 +24,8 @@ This is a solution to the [Mortgage repayment calculator challenge on Frontend M
 
 Users should be able to:
 
-- Input mortgage information and see monthly repayment and total repayment amounts after submitting the form
-- See form validation messages if any field is incomplete
-- Complete the form only using their keyboard
+- Hide/Show the answer to a question when the question is clicked
+- Navigate the questions and hide/show answers using keyboard navigation alone
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
