@@ -6,56 +6,54 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Mortgage repayment calculator</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Frontend Mentor | FAQ accordion</title>
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+  <div id="design">
+    <header><img src="../assets/images/icon-star.svg" alt="">FAQs</header>
+    <div id="container">
+      <button id="button1" onclick="toggleDesc('desc1', this)">What is Frontend Mentor, and how will it help me? <img id="desc1img" src="../assets/images/icon-plus.svg" alt=""></button>
+      <div id='desc1' class="description">
+        <p>Frontend Mentor offers realistic coding challenges to help developers improve their 
+          frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for 
+          all levels and ideal for portfolio building. </p>
+      </div>
+      
+    </div>
 
-  Mortgage Calculator
-  Clear All
+    <div id="container">
+      <button id="button2" onclick="toggleDesc('desc2', this)">Is Frontend Mentor free? <img id="desc2img" src="../assets/images/icon-plus.svg" alt=""></button>
+      <div id="desc2" class="description">
+        <p>Yes, Frontend Mentor offers both free and premium coding challenges, with the free 
+        option providing access to a range of projects suitable for all skill levels. </p>
+      </div>
+      
+    </div>
 
-  Mortgage Amount
+    <div id="container"> 
+      <button id="button3" onclick="toggleDesc('desc3', this)">Can I use Frontend Mentor projects in my portfolio? <img id="desc3img" src="../assets/images/icon-plus.svg" alt=""></button>
+      <div id="desc3" class="description">
+        <p>Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
+        way to showcase your skills to potential employers!</p>
+      </div>
+      
+    </div>
 
-  Mortgage Term
+    <div id="container">
+      <button id="button4" onclick="toggleDesc('desc4', this)">How can I get help if I'm stuck on a challenge? <img id="desc4img" src="../assets/images/icon-plus.svg" alt=""></button>
+      <div id="desc4" class="description">
+        <p>The best place to get help is inside Frontend Mentor's Discord community. There's a help 
+        channel where you can ask questions and seek support from other community members. </p>
+      </div>
 
-  Interest Rate
+    </div>
+  </div>
 
-  Mortgage Type
-  Repayment
-  Interest Only
-
-  Calculate Repayments
-
-  <!-- Empty results start -->
-
-  Results shown here
-
-  Complete the form and click “calculate repayments” to see what 
-  your monthly repayments would be.
-
-  <!-- Empty results end -->
-
-  <!-- Completed results start -->
-
-  Your results
-
-  Your results are shown below based on the information you provided. 
-  To adjust the results, edit the form and click “calculate repayments” again.
-
-  Your monthly repayments
-
-  Total you'll repay over the term
-
-  <!-- Completed results end -->
-  
+  <script src="../js/script.js"></script>
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/insouciants" target="_blank"> Tomas Horvath</a>.
   </div>
 </body>
 </html>
